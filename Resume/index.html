@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+			<title>Google Icons</title>
+			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+			
+			<title>Font Awesome Icons</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			<style>
+				body {
+					font-family: "Lato", sans-serif;
+					transition: background-color .5s;
+				}
+				.sidenav {
+					height: 100%;
+					width: 0;
+					position: fixed;
+					z-index: 1;
+					top: 0;
+					left: 0;
+					background-color: #111;
+					overflow-x: hidden;
+					transition: 0.5s;
+					padding-top: 60px
+				}
+				.sidenav a {
+					padding: 8px 8px 8px 32px;
+					text-decoration: none;
+					font-size: 25px;
+					color: #818181;
+					display: block;
+					transition: 0.3s;
+				}
+				.sidenav a:hover {
+					color: #f1f1f1;
+				}
+				.sidenav .closebtn {
+					position: absolute;
+					top: 0;
+					right: 25px;
+					font-size: 36px;
+					margin-left: 50px;
+				}
+				#main {
+					transition: margin-left .5s;
+					padding: 16px
+				}
+				@media screen and (max-height: 450px) {
+					.sidenav {padding-top: 15px;}
+					.sidenav a {font-size: 18px;}
+				}
+				
+				a:visited {
+					color: green;
+				}
+				a:hover {
+					color: blue;
+				}
+			</style>
+			
+		</head>
+		<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="/">Home</a>
+	<a href="/about">About</a>
+	<a href="/Resume">Resume</a>
+	<a href="/contact">Contact</a>
+			</div>
+
+<div id="main">
+	<span style="font-size:30px;cursor:pointer" onclick="Nav()">&#9776; </span>
+<div>
+<h1>Marah Abdelkader </h1>
+<p> &#9993;: <u><a href="mailto:marahabdelkader@gmail.com" target="_blank">marahabdelkader@gmail.com</a></u><br>
+<i style="font-size:24px" class="fa">&#xf0e1;</i>: <u><a href="https://www.linkedin.ca/in/marah-abdelkader" target="_blank">ca.linkedin.com/marah-abdelkader</a></u><br>
+<i class="material-icons">&#xe30a;</i>: <u><a href="https://marahabdelkader.github.io" target="_blank">marahabdelkader.github.io</a></u><br> </p> 
+
+<h2>Education</h2>
+<b>Bachelors of Sciences</b> (Sept 2018 - Present)<br>
+University of Waterloo, Waterloo, ON<br>
+<i>Major</i> in Honours Biopharmaceutical Sciences <br>
+<i>Relevant Courses</i>: Courses Taken: (Insert Courses here) <br>
+
+<h2> Skills </h2> 
+	<b> Languages: </b> (Insert here) <br>
+	<b> Computer Prociency: (Insert here)
+  
+<h2>Employment</h2>
+<b> Job Position </b> (Time Frame)<br>
+	<i> Company </i> <br>
+<u1>
+	<li> Insert job description here </li>
+  </u1>
+	
+
+<h2> Experiences</h2>
+<b> SHAD Fellow </b> (Dates here) <br>
+<i> SHAD - Carleton University</i> <br>
+<u1>
+  <li>  Insert SHAD description here </li>
+	</u1> <br>
+
+		
+		<h2> Awards, Certifications, Scholarships </h2>
+(Insert anything here) <br>
+			
+			</div>
+	
+
+	
+<script>
+function Nav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>			
+   
+</body>
+</html> 
+    
